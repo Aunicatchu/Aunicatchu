@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 Welcome to my Website, this is Mariah Aunica S. Gio from VIII - EINSTEIN and I would like to present my final portfolio and outputs. 
 
 <!--
 **Aunicatchu/Aunicatchu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

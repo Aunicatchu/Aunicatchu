@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gio's Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MY PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Photos</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Hobbies</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/357415750_1125613951814645_1143480165677278468_n.jpg?_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFspkPQltJIVXt2xMKBhpFcGxZ8fLnjAHUbFnx8ueMAdf1LHiIzMNOZHeTaY5ZDzmnW2OuuG9rH6J_v2p5rCHtr&_nc_ohc=3BiCitV1ZIkAX_E0Kvk&_nc_ht=scontent.fceb1-3.fna&oh=03_AdSAXspF3dpLmirSuGfte9S0bimcOZrvIbHGP4hE5xouWw&oe=64C52436" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Welcome to Gio's Website!</h3>
+      <p><b> Feel free to take a look around and enjoy your journey! </b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/352176287_785275463072998_7474427592466352348_n.jpg?_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGigrfXSfNiCLrjO_MZ2JgnZTRiUMVWL_dlNGJQxVYv905U39_bq1AsrcrFkEisXxug_-aLEdq3woZav_33mzmC&_nc_ohc=tO2GTix77ggAX8jvh-Q&_nc_ht=scontent.fceb1-2.fna&oh=03_AdR9oODUOOd3Hmf3oTGrzsDYw52wqyQsELDgb-Tc3trFpA&oe=64C4FEDB" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Mariah Aunica S. Gio </h3>
+      <p><b>Just a quick Selfie!</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/356412618_1445826542916701_1380618538944539594_n.jpg?_nc_cat=105&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG73DqU_-NjZmCewP5SqugDMxcHke4oCKczFweR7igIp78cWMg9OF-Ep7CL1SYtfBzhI-MJPZHROYQHPv30EVS4&_nc_ohc=Ti8A9dinqRIAX_tywti&_nc_oc=AQkkWNwfNrE88V-0Q-A3Jg2XIUY-mphjbK4Yggn_tSnOE7fCH9qW8K2q6JgOaYb6pxY&_nc_ht=scontent.fceb1-1.fna&oh=03_AdQ3SCAWVWqknmfwk2blr9UoS-QnSxPSSXu02xp2zRfaSg&oe=64C51DAD" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Section VIII - Einstein </h3>
+      <p><b> My beloved classmates! </b></p>    
+    </div>
+  </div>
+
+  <!-- The About Me Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">ABOUT ME</h2>
+    <p class="w3-opacity"><i>Mariah Aunica S. Gio</i></p>
+    <p class="w3-justify"> Hello and Good day! My name is Mariah Aunica S. Gio and I am currently 14 years of age. I was born on December 18, 2008 at Dumaguete City Siliman Medical Hospital. I am studying at Ramon Teves Pastor Memorial Dumaguete City Science Highschool. I am residing in Boloc Boloc Sibulan Negros Oriental.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>RTPM-DSHS</p>
+        <img src="https://pbs.twimg.com/media/EEI0nEsUUAA5WiU.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Mariah Gio</p>
+        <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/356804896_1215727625800397_1298896584271163542_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEgQtEBIhQXbn9iFFeZcn0rWmlODUzie_BaaU4NTOJ78IS5V0JCUMSTuvM5tCzVoUvQ285uT5YKFJezg0mKSTx-&_nc_ohc=UUUSdmiODmoAX_LlZlv&_nc_ht=scontent.fceb1-1.fna&oh=03_AdTv5mCO16MMptFrJzGnnXieokh4z8eYXEtN5W6L62uMdQ&oe=64C51748" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Dumaguete City</p>
+        <img src="https://manilastandard.net/wp-content/uploads/2021/10/8fa28_smart_city_dumaguete.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Portfolio Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">MY 4TH QUARTER PORTFOLIO</h2>
+      <p class="w3-opacity w3-center"><i> ICT 4th Quarter Portfolios</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">Iframes Activity <span class="w3-tag w3-red w3-margin-left">Group Work</span></li>
+        <li class="w3-padding">Frames Activity <span class="w3-tag w3-red w3-margin-left">Individual Task</span></li>
+        <li class="w3-padding">CSS Activity <span class="w3-tag w3-red w3-margin-left">Individual Task</span></li>
+        <li class="w3-padding">Forms Activity <span class="w3-tag w3-red w3-margin-left">Group Work (made in the ICT room, therefore we do not have access to it.)</span></li>
+        
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/344114354_1391945548288879_3737754764900425677_n.png?_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH3ShfAAwG3m6mG31Et3PI_tq_75BMI1Fu2r_vkEwjUW0v45PhDt9Y1BNFBv4V3llmXkWzN8kIdpaP88d6YieTx&_nc_ohc=d7kn6_V2L3AAX-MJJTX&_nc_ht=scontent.fceb1-3.fna&oh=03_AdQVuYT8rrJSiABPGkKqlexujalyUKUXH5mNiTBE707RfQ&oe=64C5146B" alt="Iframes" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Iframes Activity</b></p>
+            <p class="w3-opacity">May 11, 2023</p>
+            <p>This is the first group activity called "Iframes Activity", in this task, I was paired up with Beltran and Albina.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Like</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/357441457_2035752070097472_117571832535659869_n.png?_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGcfSp1x5_dXq1qT1PIm8W8QKaA9cRlMdRApoD1xGUx1F-aK7ekqNgwHIfDlVDKglKcHNZywxYTI7-6EzvIjThl&_nc_ohc=tYc5fPIpOjIAX_94g7h&_nc_ht=scontent.fceb1-3.fna&oh=03_AdS3U-ts6BDCAttsmWWKFqPAKAsIdxiVhNGt3A0RmlaSKQ&oe=64C516AB" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Frames Activity</b></p>
+            <p class="w3-opacity">May 18, 2023</p>
+            <p>This is the second task named "Frames Activity", this activity was an individual task.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Like</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/356967103_6192335410815628_4344095961190469206_n.png?_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHNa8NjsIGGgDU9nJvvPTRkbAAkWia7QIJsACRaJrtAgt4WBDyLefbTStIEl1TpNfyiHD33Pwblez_EVVQGcS2v&_nc_ohc=za-PQHS_6KcAX9YIM46&_nc_ht=scontent.fceb1-2.fna&oh=03_AdQ977FPbCShgygixifvo0ZOdaT9wzJ3Gw0wwBkR-lN3tA&oe=64C5146F" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>CSS Activity</b></p>
+            <p class="w3-opacity">June 1, 2023</p>
+            <p>This is an individual taks named "CSS Activity". In this activity, we have sent our codes to Sir Rafael Torres's respective social media account.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Like</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Feedback Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Thanks for the Like!</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Comment</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Input text on Gio's Website">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">Done <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>If you have clarifications, feel free to contact me!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Dumaguete City, Philippines<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 0961 199 8491<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: gmariahaunicah@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+ <!-- Photo Grid -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">A photo grid that summarizes my experience here in Science High!</h2>
+  <div class="w3-row">
+    <div class="w3-half">
+      <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/355821595_237400862401549_4748386471052011232_n.jpg?_nc_cat=107&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHsOKiSpaeTD3AIvjt0MtruGUhWwgqbjukZSFbCCpuO6RxESdPSo-14Dintf6nPqvKmE7piNe-gaG44TRwkw17p&_nc_ohc=WAfVtKQERO0AX-K-jUt&_nc_ht=scontent.fceb1-1.fna&oh=03_AdQcFm6z66ExRL7Cx7NDx0diuwi0Bhe1eansoVmKsIPu3A&oe=64C51C24" style="width:100%">
+      <img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/356704779_258534406799494_188235562911531935_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFilvyr6iLrldFU9IsGbARCatt5Uz69sf1q23lTPr2x_f58j73rRiRoOwntLDEEjZJl1RQBomtBlY72lO2ArQdP&_nc_ohc=hktfNLIjgv8AX-gvECS&_nc_oc=AQnPu0nfMksnqjYIpupXssHwIjm3V2uQxzRpIxozuwvWJSAi5bnAG7xh8M2zhxSfouk&_nc_ht=scontent.fceb1-1.fna&oh=03_AdS0YPfb06JAD_oUkGazIfQqoBSB3bPglPyuhVENsd4Wew&oe=64C51F4E" style="width:100%">
+      <img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/351262814_658060036139652_140135080708238110_n.jpg?_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEeDZ5YxCK9txfbC8C9pyn1n0i0hoYX0j-fSLSGhhfSP4z48oC0kKZhMK9Di_dMYBOCIED9W5LtfHFPdOwC5-dL&_nc_ohc=2spd2AXuzo4AX_PqqMW&_nc_ht=scontent.fceb1-2.fna&oh=03_AdTfvKvH-Q3_8A7qWF7zR15o6TSwUmHtoQRPWVjc9xSEXw&oe=64C520E8" style="width:100%">
+    </div>
+
+    <div class="w3-half">
+      <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/356154579_316056887424046_3165398906723886588_n.jpg?_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGG1qNHjEONphyKp3ffb8_u-gGGbGq6hED6AYZsarqEQL5MO3xC1K5CzRB11j_i_jRV3wGd1-0bfvrCv0bWmtMt&_nc_ohc=usrkltoj--YAX_H3vqD&_nc_ht=scontent.fceb1-3.fna&oh=03_AdSliyB_zrm4jjhDBKloCnIq7-o_QibG38Zh3OtZKgz5Tg&oe=64C527E5" style="width:100%">
+      <img src="https://scontent.fceb1-3.fna.fbcdn.net/v/t1.15752-9/351207472_135759306138989_4088733043784417585_n.jpg?_nc_cat=106&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHqkDSdlTn2pOi_yrg8mZQKvqTWNLTr1bC-pNY0tOvVsAtUinmXY8wZm4SVgEyU6yByDUIoD00zDPeXxl0RdbK0&_nc_ohc=kGHify81gQAAX-KwwAn&_nc_ht=scontent.fceb1-3.fna&oh=03_AdRFY9k36BoauZW_Gc16M95qBXkH_YE3FKpygsOG96uyaQ&oe=64C51BF8" style="width:100%">
+<img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.15752-9/356209003_271211265585989_1186125435669611471_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGnY8eDSwfJikJlA6gVfYwO35iZfG6pcj_fmJl8bqlyP_KFMVj7uS7GgkhDxjpGZu2kyXr_TVhaz1_N7jTE5b_9&_nc_ohc=QV4CduUNykEAX8jtfsE&_nc_ht=scontent.fceb1-1.fna&oh=03_AdRy65ZKzGLAZTc2kZlj6A_WeZ2oNq3WLVe_t8AgMnf_OQ&oe=64C525B1" style="width:100%">
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">"As we go on, we remember, all the times that we had together, and as our lives change, come whatever, we will still be Friends Forever.</h2>
+<img src="https://scontent.fceb1-2.fna.fbcdn.net/v/t1.15752-9/356801212_1317016588888358_8449815857238829063_n.jpg?_nc_cat=110&cb=99be929b-3346023f&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGQr2olDbB3wNQzU3MAc-uwQ2PFiYMkKftDY8WJgyQp-_4HsZiaSyRJvZ52Bl8ZN-OVd3SovsV5-ENarUIOCXxF&_nc_ohc=73Qfh6SM5HUAX-xsviE&_nc_ht=scontent.fceb1-2.fna&oh=03_AdTWm1rOc6A_7JScNmz03ajx4a9UCyfSBhPNxgLWwooMww&oe=64C52583" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Your Journey Ends here <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Gio's Website</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
